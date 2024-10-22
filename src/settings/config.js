@@ -13,8 +13,8 @@ module.exports = {
     playSource: process.env.PLAY_SOURCE || "ytsearch", // <==== SET YOUR PLAY SOURCE || "ytsearch","ytmsearch","scsearch"
     poruOptions: {
         defaultPlatform: process.env.DEFAULT_SOURCE || "ytsearch", // <==== SET DEFAULT SOURCE || "ytsearch","ytmsearch","scsearch"
-        clientID: process.env.SPOTIFY_ID || "YourSpotifyID", // <==== SPOTIFY CLIENT ID
-        clientSecret: process.env.SPOTIFY_SECRET || "YourSpotifySecret", // <==== SPOTIFY CLIENT SECRET
+        clientID: process.env.SPOTIFY_ID || "eb90ecc197de461a9cf6f8148543c746", // <==== SPOTIFY CLIENT ID
+        clientSecret: process.env.SPOTIFY_SECRET || "95a3c42b1d984f33955fc6e59b4042a2", // <==== SPOTIFY CLIENT SECRET
         reconnectTries: Infinity, // <==== TOTAL ATTEMPS TO TRY IF RECONNECT FAILED. YOU CAN CHANGE IT TO "Infinity" FOR UNLIMITED ATTEMPS.
         playlistLimit: 2, // <==== 1 = 100 TRACKS
         albumLimit: 2, // <==== 1 = 50 TRACKS
