@@ -44,7 +44,7 @@ module.exports = {
     mongoUri: process.env.MONGO_URI || "mongodb+srv://daadsafaff:@cluster0.c0srf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", // <==== YOUR MONGODB LINK
     supportUrl: process.env.SUPPORT_URL || "https://discord.gg/VP2Un2jS", // <==== YOUR SUPPORT SERVER LINK
     voteUrl: process.env.VOTE_URL || "https://www.gearhost.my.id/", // <==== YOUR VOTE URL
-    inviteUrl: process.env.INVITE_URL || "https://discord.com/api/oauth2/authorize?client_id=1122883732303511583&permissions=8&scope=bot+applications.commands", // <==== YOUR BOT INVITE LINK
+    inviteUrl: process.env.INVITE_URL || "https://discord.com/oauth2/authorize?client_id=1297937089350078597", // <==== YOUR BOT INVITE LINK
     imageUrl: process.env.IMAGE_URL || "https://i.imgur.com/HB32QqX.png", // <==== YOUR IMAGE LINK 
 };
 
